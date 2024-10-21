@@ -1,0 +1,54 @@
+/* Reset default body margin */
+body {
+    margin: 0; /* Removes default margin */
+}
+
+/* Basic styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003856; /* Blue background */
+    padding: 10px 20px;
+    width: 100%; /* Ensures the navbar takes full width */
+    position: fixed; /* Keeps the navbar fixed at the top */
+    top: 0; /* Aligns it to the top */
+    left: 0; /* Aligns it to the left */
+    z-index: 1000; /* Ensures it's on top of other elements */
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Style for the navbar brand (SlowRun) */
+.navbar .brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styling for the buttons */
+.navbar .nav-buttons {
+    display: flex;
+}
+
+.navbar .nav-buttons button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 12px; /* Reduced padding for better fit */
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px; /* Make sure text fits well */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.navbar .nav-buttons button:hover {
+    background-color: #555;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .navbar .nav-buttons button {
+        padding: 8px 10px; /* Reduce padding for smaller screens */
+        font-size: 14px; /* Slightly smaller font size */
+    }
+}
