@@ -47,6 +47,19 @@ body {
     background-color: #555;
 }
 
+.navbar .brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Poista alleviivaus hover-tilassa ja muuta kursoria */
+.navbar .brand:hover {
+    text-decoration: none;
+    color: #ffffff; /* Värin muutos hover-tilassa (valinnainen) */
+}
 
 /* Media query for smaller screens */
 @media (max-width: 600px) {
