@@ -79,6 +79,7 @@ body {
 }
 
 .mista-on-kyse {
+    color: #05556f;
     width: 100%;
     display: flex;
     align-content: center;
@@ -102,8 +103,9 @@ body {
 
 .image {
     display: block;
-    width: 200px;
-    background-color: red;
+    width: 250px;
+    background-color: white;
+    color: #05556f;
     height: 200px;
 
 }
@@ -111,23 +113,27 @@ body {
 #immu,
 #aivo,
 #suor {
-    width: 200px;
+    width: 250px;
     height: 500px;
-    background-color: #f16d6d;
+    background-color: white;
+    color: #05556f;
     display: block;
     text-align: center;
 }
 
 .keita-olemme {
-    width: 100%;
-    background-color: aquamarine;
+    color: white;
+    background-color:#849E8A;
     height: 400px;
-    text-align: center;
     text-align: left;
+    padding: 50px;
 }
 
 .keita-p {
+    color: white;
+    text-align: center;
     width: 600px;
+    padding: 40px;
 }
 
 .porras-container,
