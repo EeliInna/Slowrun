@@ -125,15 +125,16 @@ body {
     color: white;
     background-color:#849E8A;
     height: 400px;
+    width: 100%;
     text-align: left;
-    padding: 50px;
+
 }
 
 .keita-p {
+    font-size: 25px;
     color: white;
     text-align: center;
-    width: 600px;
-    padding: 40px;
+    width: 100%;
 }
 
 .porras-container,
