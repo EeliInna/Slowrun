@@ -71,11 +71,29 @@ body {
     }
 }
 
-.hero-container,
-.hero-image {
+.hero-container {
+    position: relative;
+    text-align: center;
     width: 100%;
     height: 1000px;
     overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Tummentaa taustaa tekstin alla */
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .mista-on-kyse {
