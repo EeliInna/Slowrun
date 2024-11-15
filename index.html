@@ -7,7 +7,8 @@
     <title>SlowRun</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-width: 600px)">
     <script src='main.js'></script>
 </head>
 
@@ -46,7 +47,7 @@
             <div class="image">
                 <img src="bakteeri.png" alt="Immuniteetti Image" style="margin-top: -25px;">
             </div>
-            <div>
+            <div class="teksti">
                 <h1>Immuniteetti</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat, reprehenderit animi,<br><br>
                     vitae consectetur voluptatum dolorum temporibus aperiam provident cupiditate error,<br><br>
@@ -57,7 +58,7 @@
             <div class="image">
                 <img src="aivot.png" alt="Immuniteetti Image">
             </div>
-            <div>
+            <div class="teksti">
                 <h1>Aivot</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat, reprehenderit animi,<br><br>
                     vitae consectetur voluptatum dolorum temporibus aperiam provident cupiditate error,<br><br>
@@ -68,7 +69,7 @@
             <div class="image">
                 <img src="pyora.png" alt="Immuniteetti Image">
             </div>
-            <div>
+            <div class="teksti">
                 <h1>Suorituskyky</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat, reprehenderit animi,<br><br>
                     vitae consectetur voluptatum dolorum temporibus aperiam provident cupiditate error, magnam repellat<br><br>
@@ -77,15 +78,18 @@
         </div>
     </div>
     <div class="keita-olemme">
-        <h1 style="padding: 50px; margin-left: 200px;">KEITÄ OLEMME?</h1>
+        <h1 id="keitah1">KEITÄ OLEMME?</h1>
         <div class="keita-p">
-        <p style="padding-left: 250px; padding-right: 250px;">Olemme Slow run yhdistys, jonka tarkoituksena on parantaa ihmisten hyvinvointia, rentoutumista ja luoda
+        <p id="keitateksti">Olemme Slow run yhdistys, jonka tarkoituksena on parantaa ihmisten hyvinvointia, rentoutumista ja luoda
             tervettä yhteisöllisyyttä. Hidas juokseminen on askel kohti terveempää ja tasapainoisempaa elämää. Hitaasti
             juokseminen soveltuu lähes kaikille ja niin myös yhdistyksemmekin.</p>
         </div>
     </div>
     <div class="porras-container"><img class="porras-img" src="2.png" alt=""></div>
     <div class="map-form">
+        <div class="map">
+            <img class="map-img" src="3.png" alt="map">
+        </div>
         <div class="form-container">
             <h1>Haluatko tietää lisää toiminnastamme?</h1>
             <form class="form" action="contact.php" method="POST">
@@ -99,9 +103,6 @@
                 <textarea name="message" required></textarea> <br>
                 <button type="submit">Lähetä</button>
             </form>
-        </div>
-        <div class="map">
-            <img class="map-img" src="3.png" alt="map">
         </div>
     </div>
     <div class="footer">
